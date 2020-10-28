@@ -8,10 +8,10 @@ public class Triangle extends Figure{
 
     Triangle(int a, int b, int c, int h){
 
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        this.h = h;
+        this.a = Math.abs(a);
+        this.b = Math.abs(b);
+        this.c = Math.abs(c);
+        this.h = Math.abs(h);
     }
 
     public int getPerimeter(){

@@ -6,8 +6,8 @@ public class Rectangle extends Figure{
 
     Rectangle(int width, int height){
 
-        this.width = width;
-        this.height = height;
+        this.width = Math.abs(width);
+        this.height = Math.abs(height);
     }
 
     public int getPerimeter(){
