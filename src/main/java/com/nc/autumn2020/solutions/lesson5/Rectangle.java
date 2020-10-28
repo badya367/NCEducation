@@ -1,6 +1,6 @@
 package com.nc.autumn2020.solutions.lesson5;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure {
     private int width;
     private int height;
 
@@ -18,5 +18,11 @@ public class Rectangle extends Figure{
     public int getArea(){
 
         return width * height;
+    }
+
+
+    @Override
+    public void draw() {
+        System.out.println("Нарисовал прямоугольник");
     }
 }

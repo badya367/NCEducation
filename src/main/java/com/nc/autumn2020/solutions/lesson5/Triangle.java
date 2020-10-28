@@ -1,6 +1,6 @@
 package com.nc.autumn2020.solutions.lesson5;
 
-public class Triangle extends Figure{
+public class Triangle extends Figure {
     private int a;
     private int b;
     private int c;
@@ -22,5 +22,10 @@ public class Triangle extends Figure{
     public int getArea(){
 
         return a * h;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Нарисовал треугольник");
     }
 }
