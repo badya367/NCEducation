@@ -1,12 +1,12 @@
 package com.nc.autumn2020.solutions.lesson5;
 
-public class Triangle {
-    private float a;
-    private float b;
-    private float c;
-    private float h;
+public class Triangle extends Figure{
+    private int a;
+    private int b;
+    private int c;
+    private int h;
 
-    Triangle(float a, float b, float c, float h){
+    Triangle(int a, int b, int c, int h){
 
         this.a = a;
         this.b = b;
@@ -14,12 +14,12 @@ public class Triangle {
         this.h = h;
     }
 
-    public float getPerimeter(){
+    public int getPerimeter(){
 
         return a * b * c;
     }
 
-    public float getArea(){
+    public int getArea(){
 
         return a * h;
     }

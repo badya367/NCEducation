@@ -2,8 +2,8 @@ package com.nc.autumn2020.solutions.lesson5;
 
 abstract class Figure {
 
-    public abstract float getPerimeter();
+    public abstract int getPerimeter();
 
-    public abstract float getArea();
+    public abstract int getArea();
 }
 

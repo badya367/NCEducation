@@ -1,21 +1,21 @@
 package com.nc.autumn2020.solutions.lesson5;
 
 public class Rectangle extends Figure{
-    private float width;
-    private float height;
+    private int width;
+    private int height;
 
-    Rectangle(float width, float height){
+    Rectangle(int width, int height){
 
         this.width = width;
         this.height = height;
     }
 
-    public float getPerimeter(){
+    public int getPerimeter(){
 
         return width * 2 + height * 2;
     }
 
-    public float getArea(){
+    public int getArea(){
 
         return width * height;
     }
